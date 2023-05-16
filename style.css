@@ -28,6 +28,8 @@ footer{
     background-color: #FAFAFA;
     padding-top: 4rem;
     padding-bottom: 4rem;
+    width: 100%;
+    max-width: 120rem;
  }
 
  /* START HEADER */
@@ -46,7 +48,6 @@ footer{
     width: 10%;
 }
 
-
 .justify{
     display: none;
     cursor: pointer;
@@ -61,6 +62,10 @@ footer{
     font-size: .9rem;
     align-items: center;
     margin-right: 12rem;
+}
+
+.boton{
+    margin-left: 4rem;
 }
 
 .logo{
@@ -859,8 +864,6 @@ padding-left: 2rem;
 .foot{
     display: flex;
     justify-content: center;
-    width: 100%;
-    max-width: 120rem;
 }
 
 .foot1, .foot2, .foot3, .foot4{
@@ -1092,151 +1095,215 @@ footer button:hover{
         margin-right: .5rem;
     }
 
-      .pag2{
-            display: flex;
-            flex-direction: column;
-            margin: 0;
-            padding: 0;
-        }
+    .pag2{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
 
-        .div1-pag2{
-            margin-top: 1rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
+    .div1-pag2{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
-        .lorem1p2{
-            margin-left: 1rem;
-            margin-right: 1rem;
-            margin-top: 1.4rem;
-            margin-bottom: -1rem;
-            padding: 0;
-            width: 90%;
-        }
+    .lorem1p2{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1.4rem;
+        margin-bottom: -1rem;
+        padding: 0;
+        width: 90%;
+    }
 
-        .cont2-pag2{
-            margin: 0;
-            margin-bottom: -1.5rem;
-        }
+    .cont2-pag2{
+        margin: 0;
+        margin-bottom: -1.5rem;
+    }
 
-        .pjmv{
-            display: none;
-        }
+    .pjmv{
+        display: none;
+    }
 
-        .pjmv1{
-            width: 59%;
-        }
+    .pjmv1{
+        width: 59%;
+    }
 
-        .pjmv, .pjmv1{
-            padding: 0;
-        }
+    .pjmv, .pjmv1{
+        padding: 0;
+    }
 
-        .lorem2p2{
-            display: none;
-        }
+    .lorem2p2{
+        display: none;
+    }
 
-        .sm{
-            margin: 0;
-            width: 40%;
-            margin-bottom: 2rem;
-            margin-left: 4rem;
-            margin-right: 4rem;
-        }
+    .sm{
+        margin: 0;
+        width: 40%;
+        margin-bottom: 2rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
 
-        .pag3{
-            margin: 0;
-            padding: 0;
-        }
+    .pag3{
+        margin: 0;
+        padding: 0;
+    }
 
-        .pag3 img{
-            max-height: 14rem;
-            margin-left: 4.5rem;
-            margin-right: 4.5rem;
-            margin-bottom: 2rem;
-        }
+    .pag3 img{
+        max-height: 14rem;
+        margin-left: 4.5rem;
+        margin-right: 4.5rem;
+        margin-bottom: 2rem;
+    }
 
-        .ovizq{
-            margin: 0;
-            width:100%;
+    .ovizq{
+        margin: 0;
+        width:100%;
+    }
+
+    .omright{
+        display: none;
+    }
+
+    .ovizq h1{
+        margin-left: 8.5rem;
+        margin-right: 8.5rem;
+        margin-top: 1rem;
+    }
+
+    .pv{
+        padding-top: 1rem;
+    }
+
+    .pag4{
+        margin: 0;
+        padding: 0;
+    }
+
+    .pag4cont1{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .easy{
+        width: 100%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .pag4h1{
+        font-size: 1.1em;
+        width: 100%;
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+
+    .ovizq p{
+        width: 95%;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .easylorem, .pag4cont2 p, .pag4cont2 .btn1{
+        display: none;
+    }
+
+    .pag4cont2{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .lcrb1, .lcrb, .lcrb4{
+        margin: 0;
+        padding-top: .5rem;
+        padding-left: .5rem;
+        padding-right: 2rem;
+        padding-bottom: .5rem;
+    }
+
+    .lorembtnp4{
+        display: none;
+    }
+
+    .p4-lorembtn .btn2{
+        width: 40%;
+        margin-left: 3.5rem;
+        margin-right: 3.5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 1920px){
+    header{
+        margin: 0;
+    }
+
+    .logo-nombre{
+        width: 10%;
+    }
+
+    .nav-container{
+        width: 90%;
+    }
+
+    .logo-nombre{
+        margin-right: 20rem;
+    }
+
+    .clickeables{
+        margin-right: 0rem;
+    }
+
+    .boton{
+        margin-left: 32.5rem;
+    }
+
+    .a1, .a3, .a5, .a6{
+    margin-right: 3rem;
+    }
+
+    /* PAG1 */
+    .family{
+        font-size: 5.5em;
+        line-height: 7rem;
+        width: 61rem;
+    }
+
+    .lorem1{
+        font-size: 1.55em;
+        width: 60rem;
+    }
+
+    .form{
+        width: 61rem;
+    }
+
+    .inpt1{
+        padding-right: 39.5rem;
+    }
+
+    .info h1{
+        font-size: 2.5em;
+    }
     
-        }
+    .info h3{
+        font-size: 1.5em;
+    }
 
-        .omright{
-            display: none;
-        }
+    .left1{
+        margin-right: 10rem;
+    }
 
-        .ovizq h1{
-            margin-left: 8.5rem;
-            margin-right: 8.5rem;
-            margin-top: 1rem;
-        }
-
-        .pv{
-            padding-top: 1rem;
-        }
-
-        .pag4{
-            margin: 0;
-            padding: 0;
-        }
-
-        .pag4cont1{
-            margin-left: 1rem;
-            margin-right: 1rem;
-        }
-
-        .easy{
-            width: 100%;
-            margin-left: 1rem;
-            margin-right: 1rem;
-            margin-top: 2rem;
-            margin-bottom: 2rem;
-        }
-
-        .pag4h1{
-            font-size: 1.1em;
-            width: 100%;
-            margin-left: .5rem;
-            margin-right: .5rem;
-        }
-
-        .ovizq p{
-            width: 95%;
-            margin-right: 1rem;
-            margin-left: 1rem;
-        }
-
-        .easylorem, .pag4cont2 p, .pag4cont2 .btn1{
-            display: none;
-        }
-
-        .pag4cont2{
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-        }
-
-        .lcrb1, .lcrb, .lcrb4{
-            margin: 0;
-            padding-top: .5rem;
-            padding-left: .5rem;
-            padding-right: 2rem;
-            padding-bottom: .5rem;
-        }
-
-
-        .lorembtnp4{
-            display: none;
-        }
-
-        .p4-lorembtn .btn2{
-            width: 40%;
-            margin-left: 3.5rem;
-            margin-right: 3.5rem;
-            margin-bottom: 2rem;
-        }
+    .casap1{
+        height: 45rem;
+    }
 }
