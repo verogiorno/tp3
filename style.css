@@ -800,6 +800,9 @@ padding-left: 2rem;
     width: 100%;
 }
 
+.btnp6{
+    display: none;
+}
 
 /* PAGE 7 */
 .pag7{
@@ -873,6 +876,7 @@ padding-left: 2rem;
     width: 60%;
     margin-right: 4rem;
 }
+
 
 /* FOOTER */
 .foot{
@@ -1029,6 +1033,7 @@ footer button:hover{
 /* Sector Media Queries */
 
 @media (max-width:480px){
+    /* HEADER */
     .clickeables, .boton{
         display: none;
     }
@@ -1040,17 +1045,16 @@ footer button:hover{
     }
     
     .justify{
-        margin-left: 3rem;  
+        margin-left: 2rem;  
         display: block;
     }
-
+/* PAG 1 */
     .pag1{
         margin-right: 0rem;
         padding: 0rem;
         position: relative;
         display: flex;
         justify-content: space-between;
-        position: relative;
     }
 
     .left1{
@@ -1108,7 +1112,7 @@ footer button:hover{
         margin-left: .5rem;
         margin-right: .5rem;
     }
-
+    /* PAG 2 */
     .pag2{
         display: flex;
         flex-direction: column;
@@ -1160,36 +1164,64 @@ footer button:hover{
         margin-left: 4rem;
         margin-right: 4rem;
     }
-
+    /* PAG 3 */
     .pag3{
         margin: 0;
         padding: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .omright img{
+        margin-right: .5rem;
+    }
+
+    .omright{
+        margin-bottom: 1rem;
+    }
+
+    .ovizq img{
+        margin-left: .5rem;
     }
 
     .pag3 img{
-        max-height: 14rem;
-        margin-left: 4.5rem;
-        margin-right: 4.5rem;
-        margin-bottom: 2rem;
+        max-height: 9.5rem;   
     }
 
     .ovizq{
         margin: 0;
-        width:100%;
+        width:50%;
     }
 
     .omright{
-        display: none;
+        margin: 0;
+        width:50%;
     }
 
     .ovizq h1{
-        margin-left: 8.5rem;
-        margin-right: 8.5rem;
+        margin-left: 0rem;
         margin-top: 1rem;
+        padding-left: .5rem;
+        margin-bottom: 0;
+    }
+
+    .omright h1{
+        margin-right: 0rem;
+        padding-left: .5rem;
+        padding-bottom: 0rem;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .pv{
         padding-top: 1rem;
+        padding-left: 1rem;
+        margin-bottom: 0.7rem;
+    }
+
+    .pm{
+        padding-left: 1rem ;
+        margin-top: 0;
     }
 
     .pag4{
@@ -1202,6 +1234,19 @@ footer button:hover{
         margin-right: 1rem;
     }
 
+    .pag4h1{
+        font-size: 1.2em;
+        width: 70%;
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+
+    .ovizq p, .omright p{
+        width: 15rem;
+        font-size: 1.2rem;
+    }
+
+    /* PAGE 4 */
     .easy{
         width: 100%;
         margin-left: 1rem;
@@ -1210,21 +1255,14 @@ footer button:hover{
         margin-bottom: 2rem;
     }
 
-    .pag4h1{
-        font-size: 1.1em;
-        width: 100%;
-        margin-left: .5rem;
-        margin-right: .5rem;
-    }
-
-    .ovizq p{
-        width: 95%;
-        margin-right: 1rem;
-        margin-left: 1rem;
-    }
-
-    .easylorem, .pag4cont2 p, .pag4cont2 .btn1{
+    .easylorem, .pag4cont2 p{
         display: none;
+    }
+
+    .lcrb, .lcrb1, .lcrb4{
+        display: flex;
+        align-items: center;
+        width: 60%;
     }
 
     .pag4cont2{
@@ -1254,8 +1292,233 @@ footer button:hover{
         margin-right: 3.5rem;
         margin-bottom: 2rem;
     }
+
+    /* PAGE 5 */
+    .pag5{
+        margin: 0rem;
+        padding: 0rem;
+        position: relative;
+        display: flex;
+    }
+
+    .pag5 p{
+        display: none;
+    }
+
+    .p5-div-izq{
+        position: absolute;
+        width: 90%;
+    }
+
+    .p5-div-drc{
+        display: none;
+    }
+
+    .ql{
+        margin-bottom: 3rem;
+    }
+    
+    .ql h1{
+        width: 25rem;
+    }
+
+    .al h1, .al1 h1{
+        width: 15rem;
+    }
+
+    .al, .al1{
+        margin-bottom: 2rem;
+    }
+
+    .imgbgp5{
+        display: block;
+        background: linear-gradient(rgba(150, 151, 153, 0), rgba(255, 255, 255, 0.699)), url(images/pag5.jpg);
+        background-repeat: no-repeat, cover;
+        min-height: 34rem;
+        width: 100%;
+        background-size: 104.9%;
+        background-position: center;
+        border-radius: 1rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+
+    /* PAG 6 */
+    .pag6{
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    .p6-encab{
+        width: 100%;
+    }
+
+    .p6-encab h1{
+        width: 40rem;
+        font-size: 2.5em;
+        padding-left: 2rem;
+        margin: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .p6-pencab, .testimonials, .testimonials1{
+        display: none;
+    }
+
+    .testimonials4{
+        padding-top: 0;
+        margin-top: 0;
+        width: 50%;
+        border-radius: 2rem;
+    }
+
+    .fotitos h3{
+        font-size: 1.5em;
+        width: 15rem;
+        padding-bottom: .7rem;
+    }
+
+    .fotitos small{
+        font-size: 1.2em;
+    }
+
+    .fotitos img{
+        height: 3.5rem;
+    }
+
+    .p6-p{
+        font-size: 1.3em;
+        width: 18rem;
+    }
+
+    .fotitos{
+        margin-bottom: 4rem;
+    }
+
+    .btnp6{
+        display: block;
+    }
+
+    .smp6{
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.05rem;
+        font-weight: bold;
+        background-color: white;
+        border: 0.0625em solid black;
+        border-radius: 2em;
+        color: black;
+        padding: .9rem 2.5rem .9rem 2.5rem;
+        cursor: pointer;  
+        white-space: nowrap;
+        width: 15%;
+        width: 100%;
+        margin-left: 2rem;
+    }
+
+    .smp6:hover{
+        background-color: black;
+        color: white;
+        border-color: black;
+        transition: .5s;
+    }
+
+    /* PAG 7 */
+    .pag7{
+        margin: 0rem;
+        padding: 0rem;
+        position: relative;
+    } 
+
+    .imgbgp7{
+        display: block;
+        background: linear-gradient(rgba(150, 151, 153, 0), rgba(255, 255, 255, 0.699)), url(images/pag7\ 1.jpg);
+        background-repeat: no-repeat, cover;
+        min-height: 34rem;
+        width: 100%;
+        background-size: 104.9%;
+        background-position: center;
+        border-radius: 1rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+
+    .divp7{
+        display: none; 
+    }
+
+    .p7divdrch{
+        position: absolute;
+        width: 100%;
+    }
+
+    .p7divdrch h1{
+        margin: 0;
+        padding: 0;
+        margin-left: 2.7rem;
+        font-size: 3em;
+        width: 35rem;
+        margin-bottom: 9rem;
+    }
+
+    .p7divdrch button{
+        margin: 0;
+        width: 60%;
+        margin-left: 8rem;
+        font-size: 1.3rem;
+    }
+
+    .p7divdrch img{
+        width: 10rem;
+    }
+
+    .p7divdrch p{
+        display: none;
+    }
+
+    .p7imgs{
+        display: none;
+    }
+
+    /* Footer */
+    .foot{
+        margin: 0rem;
+        padding: 0rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .foot1 p, .foot4{
+        display: none;
+  }
+    .foot1{
+        position: relative;
+    }
+
+    .larkfooter{
+        font-size: .9em;
+    }
+
+    .foot2{
+        position: absolute;
+
+    }
+
+    .foot2, .foot3{
+        margin-top: 7rem;
+        width: 50%;
+    }
+
+    .foot2{
+        margin-left: 3rem;
+    }
+
+    .foot3{
+        
+    }
 }
 
+/* 1920px */
 @media (min-width: 1920px){
 
     .logo-nombre{
