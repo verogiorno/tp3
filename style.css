@@ -260,7 +260,6 @@ nav .bi{
     border-radius: 3%;
 }
 
-
 .info h1{
     font-size: 2.1875em;
     color: #2F2F2F;
@@ -318,7 +317,6 @@ nav .bi{
     justify-content: center;
     margin-left: 5rem;
     margin-right: 5rem;
-
 }
 
 .h1-featured{
@@ -877,7 +875,6 @@ padding-left: 2rem;
     margin-right: 4rem;
 }
 
-
 /* FOOTER */
 .foot{
     display: flex;
@@ -1032,6 +1029,304 @@ footer button:hover{
 
 /* Sector Media Queries */
 
+/* 1024px */
+@media(max-width: 1024px){
+
+    /* Header */
+        .logo-nombre{
+            font-size: .8em;
+            margin-right: 7rem;
+            margin-left: 1.2rem;
+        }
+    
+        .clickeables{
+            font-size: .9em;
+            margin-right: 0rem;
+            margin-left: 0rem;
+        }
+    
+        .boton{
+            margin-left: 5rem;
+        }
+    
+        .btn-quote{
+            font-size: .9em;
+        }
+    
+        .a1, .a3, .a5, .a6{
+        margin-right: 2rem;
+        }
+    
+        .listing, .blog{
+            margin-right: 0rem;
+            padding-right: 0;
+        }
+    
+        .listing{
+            width: 5rem;
+        }
+    
+        .blog, .pages{
+            width: 4.2rem;
+        }
+    
+        /* Page1 */
+        .left1{
+            width: 50%;
+        }
+    
+        .family{
+            font-size: 3.5em;
+            width: 35rem;
+        }
+    
+        .lorem1{
+            width: 35rem;
+            font-size: 1.1em;
+        }
+    
+        .form{
+            width: 30rem;
+            border: 1px solid blue;
+        }
+        
+        .inpt1{
+            padding-right: 9.5rem;
+        }
+    
+        .info h1{
+            font-size: 2em;
+        }
+        
+        .info h3{
+            font-size: .9em;
+            margin-right: 1rem;
+        }
+    
+        .btn-search{
+            font-size: .9em;
+        }
+    
+        .right1{
+            width: 50%;
+        }
+    
+        /* PAGE 2 */
+        .h1-featured{
+            width: 40rem;
+            margin: 0;
+            padding: 0;
+            margin-left: .5rem;
+        }
+    
+        .h1-encabezado{
+            font-size: 1.9rem;
+        }
+    
+        .cont2-pag2 span{
+            font-size: 1rem; 
+        }
+    
+        .lorem1p2{
+            width: 45rem;
+            margin: 0;
+            padding: 0;
+        }
+    
+        .pjmv img, .pjmv1 img{
+          width: 15rem;  
+        }
+    
+        .pjmv, .pjmv1{
+            width: 100%;
+            margin-left: -1.7rem;  
+        }
+    
+        .cont2-pag2{
+        margin-left: 7.5rem;
+        }
+    
+        /* PAGE 3 */
+        .pag3 h1{
+            font-size: 2.5em;
+            width: 17rem;
+        }
+        
+        .pag3 p{
+            font-size: 1.2em;
+            width: 30rem;
+        }
+    
+        .pag3 img{
+            height: 20rem;
+            border-radius: 1.1rem;
+        }
+    
+        .ovizq{
+            margin-left: 5.5rem;
+        }
+        
+        .omright{  
+            margin-left: 0rem;
+        }
+    
+        /* PAGE 4 */
+        .easy{
+            font-size: 2.2em;
+            width: 28rem;
+            margin-left: 5rem;
+        }
+            
+        .easylorem{
+            font-size: 1.1em;
+            line-height: 2.2em;
+            margin-top: 1rem;
+            width: 28rem;
+            margin-left: 5rem;      
+        }
+    
+        .pag4cont2{
+            margin-bottom: 2rem;
+        }
+        
+        .pag4 .btn2{
+            width: 20%;  
+        }
+    
+        /* PAGE 5 */
+        .pag5{
+            margin-bottom: 0;
+        }
+    
+        .p5-div-izq{
+            margin-left: 5rem;
+        }
+    
+        .ql p{
+            font-size: 1.1em;
+        }
+    
+        .al h1, .al1 h1{
+            font-size: 1.8em;
+        }
+    
+        .al p, .al1 p{
+            font-size: 1em;
+        }
+    
+        .p5-div-drc img{
+            height: 36rem;
+            border-radius: 1rem;
+            margin-left: 0rem;
+        }
+    
+        /* PAGE 6 */
+        .pag6{
+            margin-top: 2rem;
+        }
+    
+        .p6-encab h1{
+            font-size: 2.2em;
+            width: 28rem;
+            margin-left: 5rem;
+        }
+            
+        .p6-pencab{
+            font-size: 1.1em;
+            line-height: 2.2em;
+            margin-top: 0rem;
+            padding-top: 0;
+            width: 28rem;
+            margin-left: 5rem;      
+        }
+    
+        .p6-testimonials{
+            width: 100%;
+        }
+    
+        .p6-p{
+            font-size: .97em;
+            width: 13rem;
+        }
+    
+        .p6-testimonials{
+            margin-left: -1.5rem;
+            margin-bottom: 0;
+        }
+    
+        .testimonials1, .testimonials{
+            margin-right: 3rem;
+            width: 20%;
+        }
+    
+        .testimonials4{
+            width: 20%;
+        }
+    
+        .testimonials1{
+            box-shadow: 0rem 0rem 0rem white;
+        }
+    
+        /* PAGE 7 */
+        .pag7{
+            padding-top: 3rem;
+        }
+    
+        .divp7{
+            margin-top: 0;
+        }
+    
+        .p7divdrch{
+            margin-top: 0;
+            padding-top: 2rem;
+        }
+    
+        .p7divdrch h1{
+            font-size: 3em;
+            width: 32rem;
+        }
+    
+        .p7divdrch p{
+            font-size: 1.1em;
+            width: 32rem;
+        }
+    
+        .p7divdrch button{
+            font-size: 1em;
+        }
+    
+        .p7divdrch img{
+            height: 9rem;
+        }
+    
+        .imgdivizq{
+            height: 33rem;
+        }
+    
+        /* footer */
+        .foot1 p{
+            font-size: 1em;
+            width: 10rem;
+        }
+
+        .foot3 p{
+            font-size: .97em;
+            width: 12rem;
+        }
+    
+        .foot1, .foot2, .foot3, .foot4{
+            width: 25%;
+        }
+    
+        .foot1{
+            margin-left: 2rem;
+        }
+    
+        .foot4{
+            margin-right: 2rem;
+        }
+    }
+
 @media (max-width:480px){
     /* HEADER */
     .clickeables, .boton{
@@ -1042,10 +1337,11 @@ footer button:hover{
         display: flex;
         justify-content: center;
         padding-right: 4rem;
+        margin-left: 4rem;
     }
     
     .justify{
-        margin-left: 2rem;  
+        margin-left: 12rem;  
         display: block;
     }
 /* PAG 1 */
@@ -1120,6 +1416,12 @@ footer button:hover{
         padding: 0;
     }
 
+    .h1-featured{
+        width: 100%;
+        margin-left: 3rem;
+        
+    }
+
     .div1-pag2{
         margin-top: 1rem;
         display: flex;
@@ -1146,7 +1448,7 @@ footer button:hover{
     }
 
     .pjmv1{
-        width: 59%;
+        width: 46%;
     }
 
     .pjmv, .pjmv1{
@@ -1369,7 +1671,7 @@ footer button:hover{
     .testimonials4{
         padding-top: 0;
         margin-top: 0;
-        width: 50%;
+        width: 40%;
         border-radius: 2rem;
     }
 
@@ -1511,305 +1813,6 @@ footer button:hover{
 
     .foot2{
         margin-left: 3rem;
-    }
-}
-
-/* 1024px */
-@media(max-width: 1024px){
-
-/* Header */
-    .logo-nombre{
-        font-size: .8em;
-        margin-right: 7rem;
-        margin-left: 1.2rem;
-    }
-
-    .clickeables{
-        font-size: .9em;
-        margin-right: 0rem;
-        margin-left: 0rem;
-    }
-
-    .boton{
-        margin-left: 5rem;
-    }
-
-    .btn-quote{
-        font-size: .9em;
-    }
-
-    .a1, .a3, .a5, .a6{
-    margin-right: 2rem;
-    }
-
-    .listing, .blog{
-        margin-right: 0rem;
-        padding-right: 0;
-    }
-
-    .listing{
-        width: 5rem;
-    }
-
-    .blog, .pages{
-        width: 4.2rem;
-    }
-
-    /* Page1 */
-    .left1{
-        width: 50%;
-    }
-
-    .family{
-        font-size: 3.5em;
-        width: 35rem;
-    }
-
-    .lorem1{
-        width: 35rem;
-        font-size: 1.1em;
-    }
-
-    .form{
-        width: 30rem;
-        border: 1px solid blue;
-    }
-    
-    .inpt1{
-        padding-right: 9.5rem;
-    }
-
-    .info h1{
-        font-size: 2em;
-    }
-    
-    .info h3{
-        font-size: .9em;
-        margin-right: 1rem;
-    }
-
-    .btn-search{
-        font-size: .9em;
-    }
-
-    .right1{
-        width: 50%;
-    }
-
-    /* PAGE 2 */
-    .h1-featured{
-        width: 40rem;
-        margin: 0;
-        padding: 0;
-        margin-left: .5rem;
-    }
-
-    .h1-encabezado{
-        font-size: 1.9rem;
-    }
-
-    .cont2-pag2 span{
-        font-size: 1rem; 
-    }
-
-    .lorem1p2{
-        width: 45rem;
-        margin: 0;
-        padding: 0;
-    }
-
-    .pjmv img, .pjmv1 img{
-      width: 15rem;  
-    }
-
-    .pjmv, .pjmv1{
-        width: 100%;
-        margin-left: -1.7rem;  
-    }
-
-    .cont2-pag2{
-    margin-left: 7.5rem;
-    }
-
-    /* PAGE 3 */
-    .pag3 h1{
-        font-size: 2.5em;
-        width: 17rem;
-    }
-    
-    .pag3 p{
-        font-size: 1.2em;
-        width: 30rem;
-    }
-
-    .pag3 img{
-        height: 20rem;
-        border-radius: 1.1rem;
-    }
-
-    .ovizq{
-        margin-left: 5.5rem;
-    }
-    
-    .omright{  
-        margin-left: 0rem;
-    }
-
-    /* PAGE 4 */
-    .easy{
-        font-size: 2.2em;
-        width: 28rem;
-        margin-left: 5rem;
-    }
-        
-    .easylorem{
-        font-size: 1.1em;
-        line-height: 2.2em;
-        margin-top: 1rem;
-        width: 28rem;
-        margin-left: 5rem;      
-    }
-
-    .pag4cont2{
-        margin-bottom: 2rem;
-    }
-    
-    .pag4 .btn2{
-        width: 20%;  
-    }
-
-    /* PAGE 5 */
-    .pag5{
-        margin-bottom: 0;
-    }
-
-    .p5-div-izq{
-        margin-left: 5rem;
-    }
-
-    .ql p{
-        font-size: 1.1em;
-    }
-
-    .al h1, .al1 h1{
-        font-size: 1.8em;
-    }
-
-    .al p, .al1 p{
-        font-size: 1em;
-    }
-
-    .p5-div-drc img{
-        height: 36rem;
-        border-radius: 1rem;
-        margin-left: 0rem;
-    }
-
-    /* PAGE 6 */
-    .pag6{
-        margin-top: 2rem;
-    }
-
-    .p6-encab h1{
-        font-size: 2.2em;
-        width: 28rem;
-        margin-left: 5rem;
-    }
-        
-    .p6-pencab{
-        font-size: 1.1em;
-        line-height: 2.2em;
-        margin-top: 0rem;
-        padding-top: 0;
-        width: 28rem;
-        margin-left: 5rem;      
-    }
-
-    .p6-testimonials{
-        width: 100%;
-    }
-
-    .p6-p{
-        font-size: .97em;
-        width: 13rem;
-    }
-
-    .p6-testimonials{
-        margin-left: -1.5rem;
-        margin-bottom: 0;
-    }
-
-    .testimonials1, .testimonials{
-        margin-right: 3rem;
-        width: 20%;
-    }
-
-    .testimonials4{
-        width: 20%;
-    }
-
-    .testimonials1{
-        box-shadow: 0rem 0rem 0rem white;
-    }
-
-    /* PAGE 7 */
-    .pag7{
-        padding-top: 3rem;
-    }
-
-    .divp7{
-        margin-top: 0;
-    }
-
-    .p7divdrch{
-        margin-top: 0;
-        padding-top: 2rem;
-    }
-
-    .p7divdrch h1{
-        font-size: 3em;
-        width: 32rem;
-    }
-
-    .p7divdrch p{
-        font-size: 1.1em;
-        width: 32rem;
-    }
-
-    .p7divdrch button{
-        font-size: 1em;
-    }
-
-    .p7divdrch img{
-        height: 9rem;
-    }
-
-    .imgdivizq{
-        height: 33rem;
-    }
-
-    /* footer */
-    .foot1 p{
-        font-size: 1em;
-        width: 10rem;
-    }
-
-
-    .foot3 p{
-        font-size: .97em;
-        width: 12rem;
-    }
-
-    .foot1, .foot2, .foot3, .foot4{
-        width: 25%;
-    }
-
-    .foot1{
-        margin-left: 2rem;
-    }
-
-    .foot4{
-        margin-right: 2rem;
     }
 }
 
