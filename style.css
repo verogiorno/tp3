@@ -17,12 +17,15 @@ body{
 header{
     display: flex;
     align-items: center;
-    padding-top: 1em;
-    padding-bottom: 1rem;
+    padding-top: .5em;
+    padding-bottom: .5rem;
     justify-content:space-between;
     white-space: nowrap;
     width: 100%;
     max-width: 120rem;
+    position: fixed;
+    background-color: white;
+    z-index: 99;
 }
 
 footer{
@@ -151,7 +154,7 @@ nav .bi{
 
 /* START PAG 1 */
 .pag1{
-    padding-top: 4.1rem;
+    padding-top: 8.1rem;
     padding-bottom: 4.1rem;
     display: flex;
     justify-content: center;
