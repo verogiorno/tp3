@@ -303,7 +303,7 @@ nav .bi{
 
 .lorem2p2{
     color: #6E6E6E;
-    font-size: 1.05em;
+    font-size: 1em;
     line-height: 1.5625em;
     padding-top: 0.25em;
     font-weight: 400;
@@ -870,9 +870,12 @@ padding-left: 2rem;
 
 .p7divdrch{
     margin-top: 4rem;
-    margin-bottom: 4rem;
     width: 60%;
     margin-right: 4rem;
+}
+
+.tresimgp7{
+    margin-top: 1.1rem;
 }
 
 /* FOOTER */
@@ -1929,7 +1932,7 @@ footer button:hover{
         font-size: 1.4rem;}
 
     .lorem2p2{
-        font-size: 1.7em;
+        font-size: 1.5em;
         width: 85rem;
         margin-left: -2rem;
     }
@@ -2113,112 +2116,112 @@ footer button:hover{
         font-size: 1.1rem;
     }
 
-/* PAGE 7 */
-.pag7{
-    margin: 0;
-    padding: 0;
-}
-.divp7{
-    display: none;
-}
+    /* PAGE 7 */
+    .pag7{
+        margin: 0;
+        padding: 0;
+    }
+    .divp7{
+        display: none;
+    }
 
-.imgbgp7{
-    display: block;
-    background-image: url(images/pag7\ 1.jpg);
-    background-repeat: no-repeat;
-    min-height: 50rem;
-    width: 40%;
-    border-radius: 2rem;
-    background-size: 104.9%;
-    background-position: center; 
-    margin-left: 5rem;
-}
+    .imgbgp7{
+        display: block;
+        background-image: url(images/pag7\ 1.jpg);
+        background-repeat: no-repeat;
+        min-height: 50rem;
+        width: 40%;
+        border-radius: 2rem;
+        background-size: 104.9%;
+        background-position: center; 
+        margin-left: 5rem;
+    }
 
-.p7divdrch{
-    width: 48%;
-    margin-left: 8rem;
-}
+    .p7divdrch{
+        width: 48%;
+        margin-left: 8rem;
+    }
 
-.p7divdrch h1{
-    font-size: 5em;   
-    width: 55rem;
-    line-height: 6.7rem;
-}
+    .p7divdrch h1{
+        font-size: 5em;   
+        width: 55rem;
+        line-height: 6.7rem;
+    }
 
-.p7divdrch p{
-    font-size: 1.55em;
-    width: 57rem;
-    margin-bottom: 2.2rem;
-}
+    .p7divdrch p{
+        font-size: 1.55em;
+        width: 57rem;
+        margin-bottom: 2.2rem;
+    }
 
-.p7divdrch button{
-    font-size: 1.55em;
-    padding: .9em 2.5em .9em 2.5em;
-    font-weight: 400;
-    margin-bottom: 2.2rem;
-}
+    .p7divdrch button{
+        font-size: 1.55em;
+        padding: .9em 2.5em .9em 2.5em;
+        font-weight: 400;
+        margin-bottom: 2.2rem;
+    }
 
-.p7imgs{
-    height: 17rem;
-    border-radius: 1rem;
-    margin-right: 1rem;
-}
+    .p7imgs{
+        height: 17rem;
+        border-radius: 1rem;
+        margin-right: 1rem;
+    }
 
-.logo-nombre-footer{
-    font-size: 1.1em;
-}
+    .logo-nombre-footer{
+        font-size: 1.1em;
+    }
 
-.larkfooter{
-    font-size: 1.1em;
-    margin-right: 0em;
-}
+    .larkfooter{
+        font-size: 1.1em;
+        margin-right: 0em;
+    }
 
-.foot1 p{
-    font-size: 1.5em;
-    width: 25rem;
-}
+    .foot1 p{
+        font-size: 1.5em;
+        width: 25rem;
+    }
 
-.foot4{
-    width: 23rem;
-}
+    .foot4{
+        width: 23rem;
+    }
 
-.foot2 .fh1, .foot3 h1, .foot4 h1{
-    font-size: 1.6em;
-}
+    .foot2 .fh1, .foot3 h1, .foot4 h1{
+        font-size: 1.6em;
+    }
 
-.foot2 .fa1, .fa2, .foot3 p{
-    font-size: 1.3em;
-}
+    .foot2 .fa1, .fa2, .foot3 p{
+        font-size: 1.3em;
+    }
 
-.foot3 .city{
-width: 18rem;
-}
+    .foot3 .city{
+    width: 18rem;
+    }
 
-.getintouch img{
-    height: 2rem;
-}
+    .getintouch img{
+        height: 2rem;
+    }
 
-.foot4 input{
-    font-size: 1.2em;
-    border-radius: 1.3rem;
-}
+    .foot4 input{
+        font-size: 1.2em;
+        border-radius: 1.3rem;
+    }
 
-footer button{
-    font-size: 1.3rem;
-    padding: .8em 5.5em .8em 5.5em ;
-}
+    footer button{
+        font-size: 1.3rem;
+        padding: .8em 5.5em .8em 5.5em ;
+    }
 
-.foot1{
-    margin-left: 5rem;
-    margin-right: 7rem;
-}
+    .foot1{
+        margin-left: 5rem;
+        margin-right: 7rem;
+    }
 
-.foot2{
-    margin-right: 0rem;
-    margin-right: -3rem;
-}
+    .foot2{
+        margin-right: 0rem;
+        margin-right: -3rem;
+    }
 
-.foot4{
-    margin-right: 5rem;
-}
+    .foot4{
+        margin-right: 5rem;
+    }
 }
