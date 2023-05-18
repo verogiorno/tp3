@@ -161,7 +161,6 @@ nav .bi{
     align-items: center;
     width: 100%;
     max-width: 120rem;
-    border-radius: 1px solid black;
 }
 
 .left1{
@@ -1005,7 +1004,7 @@ footer img{
     font-family: 'Nunito', sans-serif;
     background-color:#FAFAFA;
     padding: .8em .5em .8em .9em;
-    border: 1px solid #6E6E6E;
+    border: 0.0625em solid #6E6E6E;
     margin-bottom: .6rem;
 }
 
@@ -1093,7 +1092,6 @@ footer button:hover{
     
         .form{
             width: 30rem;
-            border: 1px solid blue;
         }
         
         .inpt1{
